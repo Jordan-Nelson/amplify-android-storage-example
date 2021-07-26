@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "myamplifystorageappa4713e11": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "AndroidS3Example": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
